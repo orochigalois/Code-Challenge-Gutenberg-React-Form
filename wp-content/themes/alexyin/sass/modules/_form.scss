@@ -1,0 +1,94 @@
+.module__form {
+	&__content {
+		margin: 64px auto;
+		padding: 64px;
+		background: rgba(0, 0, 0, 0.03);
+		border: 1px solid hsla(0, 0%, 0%, 0.114);
+		max-width: 760px;
+
+		h2 {
+			font-size: 26px;
+			font-weight: bold;
+			padding: 0 0 16px;
+			font-family: "Times Classic" !important;
+			text-align: center;
+			margin-bottom: 40px;
+		}
+	}
+
+
+	&__group {
+		display: flex;
+		margin-bottom: 10px;
+		flex-wrap: wrap;
+
+		label {
+			color: #000000;
+			font-size: 16px;
+			font-family: "Times Classic" !important;
+			width: 200px;
+			padding-top: 5px;
+		}
+
+		input[type="text"] {
+			width: calc(100% - 200px);
+			height: 44px;
+			border: 1px solid #cdcdcd;
+			margin: 0;
+			font-weight: bold;
+			padding-left: 16px;
+			padding-right: 16px;
+			font-family: "Times Classic" !important;
+		}
+
+		p{
+			font-size: 11px;
+			color:red;
+			margin-left: 200px;
+		}
+
+		small {
+			font-size: 11px;
+			display: block;
+			// width: 100%;
+		}
+
+		.button {
+			border: none;
+			background: #237D9A;
+			color: #FFFFFF;
+			font-family: "Times Classic";
+			font-size: 16px;
+			line-height: normal;
+			padding: 10px;
+			border-radius: 3px;
+		}
+		@media screen and (max-width:$screen-sm-max) 
+		{
+			flex-direction: column;
+			label{
+				width: 100%;
+			}
+			input[type="text"]{
+				width: 100%;
+			}
+			p{
+				margin-left: 0;
+			}
+		}
+
+
+	}
+
+
+}
+
+
+.only_show_on_amdin{
+	display: none;
+}
+
+
+.wp-admin .only_show_on_amdin{
+	display: block;
+}

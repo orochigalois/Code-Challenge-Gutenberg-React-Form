@@ -1,0 +1,71 @@
+.module__hero {
+	position: relative;
+	padding: 0;
+
+	height: 660px;
+	max-width: 1679px;
+	margin: 0 auto 50px;
+
+	overflow: hidden;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	@media screen and (max-width:$screen-sm-max) {
+		height: 100vh;
+	}
+
+
+	&__copy {
+		padding:0 20px;
+		h2 {
+			font-family: 'Times Classic' !important;
+			max-width: 800px;
+			color: #000 !important;
+			font-size: 70px;
+			line-height: 1.13;
+			padding: 0 0 32px;
+			font-size: 60px;
+			display: block;
+			font-weight: bold;
+			margin: 0 auto;
+			text-align: center;
+
+
+		}
+
+		@media screen and (max-width:$screen-sm-max) {
+			h2{
+				font-size: 45px;
+			}
+		}
+
+	}
+
+	&__button {
+		a {
+			text-decoration: none;
+			font-weight: bold;
+			outline: none;
+			border: 0;
+			background: #237D9A;
+			color: #FFFFFF;
+			font-family: "Times Classic";
+			font-size: 35px;
+			line-height: normal;
+			padding: 30px 40px;
+			border-radius: 2px;
+			display: block;
+			margin: 0px auto 20px auto;
+			cursor: pointer;
+			max-width: 330px;
+			text-align: center;
+
+			@media screen and (max-width:$screen-sm-max) {
+				font-size: 30px;
+				padding: 20px 20px;
+				width: calc(100vw - 20px);
+				margin: 0px auto 10px auto;
+			}
+		}
+	}
+}

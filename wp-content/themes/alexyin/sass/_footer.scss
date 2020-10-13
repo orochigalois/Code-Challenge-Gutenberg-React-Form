@@ -1,0 +1,16 @@
+.site-footer {
+
+
+    background: #00405C;
+    min-height: 266px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    .footer-copyright {
+        color: #fff !important;
+        font-size: 22px !important;
+    }
+}
