@@ -29,4 +29,4 @@ This site is based on these plugins:
 
 ### TODO
 
-* I'm thinking to deploy it as a docker image but running out of time since I'm still in role)
+* I'm thinking to deploy it as a docker image but running out of time since I'm still in role
