@@ -25,8 +25,3 @@ This site is based on these plugins:
 ### Meet Additional Criteria:
 * Yep, it's responsive
 * All Gutenberg blocks and React components are built as Reusable
-
-
-### TODO
-
-* I'm thinking to deploy it as a docker image but running out of time since I'm still in role
